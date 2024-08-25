@@ -6,9 +6,12 @@ function App() {
 
   return (
     <>
+    <div className="px-14 py-4 bg-amber-50 ">
       <Header/>
       <Body/>
       <Footer/>
+    </div>
+      
     </>
   )
 }
