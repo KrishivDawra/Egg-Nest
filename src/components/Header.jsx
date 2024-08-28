@@ -9,11 +9,11 @@ const Header = () => {
         <h1 className='px-2 py-2 size- font-serif text-red-300'>EggNest</h1>
       </div>
             
-      <ul className=' flex gap-5 px-6 py-3 border-2 bg-gray-50 rounded-2xl'>
-        <li>Home</li>
-        <li>AbOut Us</li>
-        <li>Services</li>
-        <li>Products</li>
+      <ul className=' flex gap-5 px-6 py-3 border-2 bg-gray-50 rounded-2xl shadow-md shadow-green-300 '>
+        <li className=' hover:text-green-600'><a href="#">Home</a></li>
+        <li className=' hover:text-green-600'><a href="#">AbOut Us</a></li>
+        <li className=' hover:text-green-600'><a href="#">Services</a></li>
+        <li className=' hover:text-green-600' ><a href="#">Products</a></li>
       </ul>
       
       <div className='gap-10'>
@@ -21,6 +21,8 @@ const Header = () => {
         <button className='bg-green-500 hover:bg-green-600 px-5 py-2 rounded-full'>Join Us</button>
       </div>
     </div>
+
+
   )
 }
 
